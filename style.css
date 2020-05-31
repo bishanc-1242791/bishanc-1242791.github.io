@@ -1,0 +1,51 @@
+/*
+  Name: Bishan Chen
+  Date: April 5, 2020
+  Section: CSE 154 AE Alex Larsen
+
+  This is the stylesheet I used for decorating my about.html and yummysnacks.html site.
+*/
+
+body {
+  margin-left: 150px;
+  margin-right: 150px;
+  background: url(https://cdn.shopify.com/s/files/1/2169/8629/products/FRPBAPNDM0002_A_00_1_1024x1024.jpg?v=1510545216);
+}
+
+h1, p {
+  text-shadow: 5px 5px mistyrose;
+}
+
+h2 {
+  color: crimson;
+  font-family: 'comic neue', cursive;
+}
+
+h3 {
+  color: white;
+  background-color: palevioletred;
+}
+
+h3 + ol {
+  font-size: large;
+}
+
+h1, p, h3, ol {
+  font-family: monospace;
+}
+
+#myfavorite {
+  color: red;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+.smallpic {
+  width: 180px;
+  height: 180px;
+}
+
+.mediumpic {
+  width: 200px;
+  height: 200px;
+}
